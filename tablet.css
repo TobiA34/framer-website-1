@@ -36,7 +36,6 @@
    margin-top: 50px;
    width: 90%;
    margin: 32px auto;
-   background-color: aquamarine;
   }
 
   #main-container {
@@ -57,7 +56,6 @@
 #my-work-column {
   display: flex;
   flex-wrap: wrap;
-  background: pink;
   margin: 32px auto;
   width: 90%;
 }
