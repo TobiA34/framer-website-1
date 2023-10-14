@@ -35,7 +35,6 @@
    margin-top: 50px;
    width: 90%;
    margin: 32px auto;
-   background-color: aquamarine;
   }
 
   #main-container {
@@ -51,7 +50,7 @@
 #my-work-column {
   display: flex;
   flex-wrap: wrap;
-  background: pink;
+  background: whitesmoke;
   margin: 32px auto;
   width: 90%;
 }
@@ -152,7 +151,7 @@
    margin-top: 50px;
    margin: 0 auto;
    width: 90%;
-   background: blue;
+   background: whitesmoke;
 
   }
   .testimonials-child-1 {
@@ -218,7 +217,7 @@
    margin-top: 50px;
    width: 100%;
    margin: 32px auto;
-   background: red;
+   background: whitesmoke;
  }
 
  #service {
