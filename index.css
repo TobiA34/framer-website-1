@@ -276,9 +276,6 @@ display: flex;
   border: 1px solid black;
 }
 
-.slider h2 {
-  
-}
 .slider__content {
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
@@ -331,12 +328,13 @@ display: flex;
  }
 
   .slider__item h2 {
-    margin-left: 16px;
+  margin: 16px 16px;
   }
 
-    .slider__item p {
-    margin-left: 16px;
-  }
+
+.slider__item p {
+  margin: 0px 16px;
+}
 
 #contact-me {
 margin-top: 40px;
