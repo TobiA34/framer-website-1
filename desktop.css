@@ -1,4 +1,4 @@
-@media screen and (min-width: 1444px) {
+@media(767px <= width <= 1600px) {
  
 .topnav { 
   width: 100%;
@@ -61,11 +61,11 @@
 }
 
 #my-work-container p{
-  /* text-align: center; */
+  text-align: center;
 }
 
 #my-work-column > div {
-  flex: 0%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+  flex: 20%; /* or - flex: 0 50% - or - flex-basis: 50% - */
   /*demo*/
   box-shadow: 0 0 0 1px black;
   margin: 16px 56px;
