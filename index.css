@@ -107,6 +107,7 @@ display: flex;
   opacity: 1;
   border-radius: 8px;
   color: white;
+  width: 45%;
 
 }
 
@@ -184,12 +185,12 @@ display: flex;
 }
 
 #my-work-container h1 {
-  margin: 20px 24px;
+  margin: 8px 32px;
 }
 
 #my-work-container p {
-  margin-top: 8px;
-  margin-left: 8px;
+  margin-right: 32px;
+  margin-left: 32px;
 }
 
 #my-work-column{
