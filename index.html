@@ -23,12 +23,18 @@
         <!-- Menu -->
         <nav class="nav">
             <ul class="menu">
-                <li><a href="#">About</a></li>
+                 <div style="padding-right: 140px; ">
+                    <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Work</a><li>
                 <li><a href="#">Testimonials</a><li>
                 <li><a href="#">Contact</a><li>
-
+                  
+          
+         
+                 </div>
+       
+        <button id="download-btn">Download free<span></span><i class="fa fa-download"></i></button>
 
             </ul>
         </nav>
@@ -50,39 +56,12 @@
           to bring your vision to life in no time.
         </p>
         <div class="row add-top-spacing">
-          <button id="main-container-dark-btn">
-            <!-- arrow-right icon by Free Icons (https://free-icons.github.io/free-icons/) -->
-
-            My Story
-            <!-- arrow-right icon by Free Icons (https://free-icons.github.io/free-icons/) -->
-            <svg
-              class="svg-height"
-              xmlns="http://www.w3.org/2000/svg"
-              height="1em"
-              fill="currentColor"
-              viewBox="0 0 448 384"
-            >
-              <path
-                d="M 439 215 Q 448 205 448 192 L 448 192 Q 448 179 439 169 L 279 9 Q 269 0 256 0 Q 243 0 233 9 Q 224 19 224 32 Q 224 45 233 55 L 339 160 L 32 160 Q 18 160 9 169 Q 0 178 0 192 Q 0 206 9 215 Q 18 224 32 224 L 339 224 L 233 329 Q 224 339 224 352 Q 224 365 233 375 Q 243 384 256 384 Q 269 384 279 375 L 439 215 L 439 215 Z"
-              />
-            </svg>
+         <button id="main-container-dark-btn">
+          My Story<span></span><i class="fa fa-arrow-right"></i>
           </button>
-          <button id="main-container-light-btn">
-            <!-- arrow-right icon by Free Icons (https://free-icons.github.io/free-icons/) -->
 
-            See Work
-            <!-- arrow-right icon by Free Icons (https://free-icons.github.io/free-icons/) -->
-            <svg
-              class="svg-height"
-              xmlns="http://www.w3.org/2000/svg"
-              height="1em"
-              fill="currentColor"
-              viewBox="0 0 448 384"
-            >
-              <path
-                d="M 439 215 Q 448 205 448 192 L 448 192 Q 448 179 439 169 L 279 9 Q 269 0 256 0 Q 243 0 233 9 Q 224 19 224 32 Q 224 45 233 55 L 339 160 L 32 160 Q 18 160 9 169 Q 0 178 0 192 Q 0 206 9 215 Q 18 224 32 224 L 339 224 L 233 329 Q 224 339 224 352 Q 224 365 233 375 Q 243 384 256 384 Q 269 384 279 375 L 439 215 L 439 215 Z"
-              />
-            </svg>
+          <button id="main-container-light-btn">
+            See Work<span></span><i class="fa fa-arrow-right"></i>
           </button>
         </div>
       </div>
@@ -99,50 +78,71 @@
     </div>
 
     <!-- My Service -->
-    <!-- <div id="my-service-container">
-<div class="service">
-
+<div id="my-service-container">
+<div class="header-row">
+<div class="header-child">
 <h1>My Service</h1>
 <p>Check Out Some Stunning Testimonials by my Clients, who Loved my Work!</p>
 </div>
+
+<div class="header-child">
 <button data-button-icon="+" id="get-started-btn" href="#">Get Started<i class="fa fa-arrow-right"></i></button>
+</div>
+
+</div>
+
 <br>
 
+<div id="service-row">
+  
 <div id="my-service-container-2">
   <div id="web-design-container">
  <div id="web-design-container-child">
-<button id="web-design-btn"><i class="fa fa-home"></i>Home</button>
+<button id="web-design-btn">
+  <div id="icon-container-dark">
+   <h1><i class="fa fa-home"></i><span>Web Design</span></h1>
+  </div>
 <p>Create Your Next Amazing Website Today with Me</p>
  </div>
 </div>
 
  <div class="light-btn">
-<button id="web-design-btn"><i class="fa fa-pencil" aria-hidden="true"></i>Home</button>
+<button id="web-design-btn">
+  <div class="icon-container-light">
+   <h1><i class="fa fa-pencil"></i><span>Logo Design</span></h1>
+  </div>
+</button>
 </div>
  
 
 <div class="light-btn">
 <button id="web-design-btn">
-   <i class="fa fa-cloud" aria-hidden="true"></i>
-    Home</button>
-</div>
-
-<div class="light-btn">
-<button id="web-design-btn"><i class="fa fa-server" aria-hidden="true"></i>
- Home</button>
-</div>
+  <div class="icon-container-light">
+    <h1><i class="fa fa-cloud"></i><span>Website Maintenance</span></h1>
+  </div>
+  </button>
  
 </div>
 
+<div class="light-btn">
+<button id="web-design-btn">
+  <div class="icon-container-light">
+  <h1><i class="fa fa-server"></i><span>Website Hosting</span></h1>
+  </div>
 
-
-
+</button>
 </div>
-</div> -->
+ 
+</div>
+<div id="serivce-img">
+</div>
+</div>
+</div>
+</div> 
     <!-- End of my Service -->
 
     <!-- My work -->
-    <!-- <div id="my-work-container">
+     <div id="my-work-container">
   <div id="text-column">
   <h1>My Work</h1>
   <p>I've been busy past few years, working on some of the best projects. Here's a glimpse!</p>
@@ -196,87 +196,119 @@
         <button class="btn"> View Project <i class="fa fa-arrow-right"></i> </button>  
     </div>
   </div>
-</div> -->
+</div>
     <!-- End of My work  -->
 
     <!-- Testimonials -->
     <div id="testimonials-container">
-      <div id="testimonials-child">
-        <div id="testimonials-text-column">
-          <h1>Testimonials</h1>
-          <p>
-            Check Out Some Stunning Testimonials by my Clients, who Loved my
-            Work!
-          </p>
-
-          <button>View Project <i class="fa fa-arrow-right"></i></button>
-        </div>
-      </div>
-
-      <br />
+      <div class="header-row">
+      <div class="header-child">
+      <h1>Testimonials</h1>
+      <p> Check Out Some Stunning Testimonials by my Clients, who Loved my Work!</p>
     </div>
 
-    <div class="slider" x-data="{start: true, end: false}">
+<div class="header-child">
+<button data-button-icon="+" id="get-started-btn" href="#">Get Started<i class="fa fa-arrow-right"></i></button>
+</div>
+
+</div>
+
+      <br />
+        <div class="slider" x-data="{start: true, end: false}">
       <div
         class="slider__content"
         x-ref="slider"
         x-on:scroll.debounce="$refs.slider.scrollLeft == 0 ? start = true : start = false; Math.abs(($refs.slider.scrollWidth - $refs.slider.offsetWidth) - $refs.slider.scrollLeft) < 5 ? end = true : end = false;"
       >
         <div class="slider__item">
-          <img class="slider__image img" src="image/coffee.jpeg" alt="Image" />
+          <img class="slider__image" src="image/coffee.jpeg" alt="Image" />
           <h2>Anna b</h2>
+          <p class="sub-title">CEO - ABC Co.</p>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
             aperiam assumenda sed quidem saepe esse ullam laborum sint non
             neque?
           </p>
-          <img
-            class="rating-img"
-            src="image/5-star-rating-review-star-transparent-free-png.webp"
-            alt=""
-          />
+                 <div class="star-rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+
+          </div>
           <div
             class="slider__nav"
             style="display: flex; justify-content: center"
           >
-            <button
+            <!-- <button
               class="slider__nav__button"
               x-on:click="$refs.slider.scrollBy({left: $refs.slider.offsetWidth * -1, behavior: 'smooth'});"
               x-bind:class="start ? '' : 'slider__nav__button--active'"
             >
               Previous
-            </button>
-            <button
-              class="slider__nav__button"
-              x-on:click="$refs.slider.scrollBy({left: $refs.slider.offsetWidth, behavior: 'smooth'});"
-              x-bind:class="end ? '' : 'slider__nav__button--active'"
-            >
-              Next
-            </button>
+            </button> -->
+          
           </div>
         </div>
-        <div class="slider__item">
-          <img class="slider__image img" src="image/coffee.jpeg" alt="Image" />
+
+          <div class="slider__item">
+          <img class="slider__image" src="image/coffee.jpeg" alt="Image" />
           <h2>Anna b</h2>
+          <p class="sub-title">CEO - ABC Co.</p>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
             aperiam assumenda sed quidem saepe esse ullam laborum sint non
             neque?
           </p>
-          <img
-            class="rating-img"
-            src="image/5-star-rating-review-star-transparent-free-png.webp"
-            alt=""
-          />
+                 <div class="star-rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+
+          </div>
           <div
-            class="slider__nav"
-            style="display: flex; justify-content: center"
-         >
+            class="slider__nav">
+            <button
+              class="slider__nav__button"
+              x-on:click="$refs.slider.scrollBy({left: $refs.slider.offsetWidth, behavior: 'smooth'});"
+              x-bind:class="end ? '' : 'slider__nav__button--active'"
+            >
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+
+            </button>
           </div>
         </div>
+
+          <div class="slider__item">
+          <img class="slider__image" src="image/coffee.jpeg" alt="Image" />
+          <h2>Anna b</h2>
+          <p class="sub-title">CEO - ABC Co.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+            aperiam assumenda sed quidem saepe esse ullam laborum sint non
+            neque?
+          </p>
+                 <div class="star-rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+
+          </div>
+         
+          </div>
+        </div>
+        
       </div>
  
     </div>
+    </div>
+
+  
 
     <!-- End of Testimonials -->
 
@@ -284,7 +316,10 @@
 
     <div id="contact-me-container">
       <div id="contact-me-child">
-        <img src="image/photo-1697081544011-e472e6a19cc8.avif" alt="" />
+        <div id="contact-me-img">
+          <img src="image/photo-1697081544011-e472e6a19cc8.avif" alt="" />
+        </div>
+       
         <div id="contact-text">
           <h1>Work With Me!</h1>
           <p>Let's Connect and Discuss your WebDesign Project Today!</p>
@@ -313,7 +348,6 @@
               </a>
               </li>
             </ul>
-          </div>
            <form>
                 <div id="contact-form">
                     <div class="form-details">
@@ -324,25 +358,28 @@
                     </div>
                 </div>
             </form>
+
+          </div>
+
           
         </div>
-
-            <div id="contact-details">
-                <div class="contact-details-column ">
-                  <h2>Or Email At</h2>
-                  <h1>hello@framerit.com</h1>
-                </div>
-              <div class="contact-details-column ">
-                  <h2>Or Call Me At</h2>
-                  <h1>+1 234 556 7/h1>
-                </div>
-                 <div class="contact-details-column ">
-                  <h2>Or Let's Hang Out!</h2>
-                  <h1>153 Williamson Plaza, 09514</h1>
-                </div>
-
-            </div>
+        
       </div>
+     <div class="contact-details">
+  <div class="contact-details-child">
+    <h2>Or Email At</h2>
+    <h1>hello@framerit.com</h1>
+  </div>
+  <div class="contact-details-child">
+    <h2>Or Call Me At</h2>
+    <h1>+1 234 556 7</h1>
+  </div>
+  <div class="contact-details-child">
+  
+        <h2>Or Let's Hang Out!</h2>
+    <h1>153 Williamson Plaza, 09514</h1>
+    </divclass>
+</div>
     </div>
 
     <!-- End of contact me -->

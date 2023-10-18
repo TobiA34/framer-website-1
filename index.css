@@ -33,7 +33,7 @@ ul{
     /* position: sticky; */
     top: 0;
     width: 100%;
-    height: 70px;
+    height: 80px;
 }
 /* Logo */
 .logo{
@@ -51,8 +51,25 @@ ul{
     position: fixed;
     background-color: var(--white);
     overflow: hidden;
+}
+
+#download-btn { 
+  padding: 10px;
+  margin-top: 20px;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin-left: 28px;
 
 }
+
+
+#download-btn span{ 
+  padding: 5px;
+  margin-top: 20px;
+}
+
 .menu a{
     display: block;
     padding: 30px;
@@ -141,6 +158,8 @@ ul{
 
     .hamb{
         display: none;
+
+        
     }
 }
 
@@ -202,6 +221,10 @@ ul{
   color: white;
 }
 
+#main-container-dark-btn span {
+   margin-left: 8px;
+}
+
 #main-container-light-btn {
   padding: 13px 25px;
   border-bottom-width: 2px;
@@ -216,6 +239,9 @@ ul{
   color: black;
 }
 
+#main-container-light-btn span {
+   margin-left: 8px;
+}
 /* end of main container */
 
 #hero-image img {
@@ -235,10 +261,24 @@ ul{
 
 /* My-service */
 
-#my-service-container {
+.header-row {
+  display: block;
+  gap: 23%;
   width: 100%;
+  margin-left: 4%;
+ }
+
+ .header-child p{
+  width: 75%;
+  
+ }
+
+#my-service-container {
+  width: 90%;
   margin-top: 97px;
-}
+  margin-left: 20px;
+  margin-right: 20px;
+ }
 
 #my-service-container i {
   height: 12px;
@@ -265,16 +305,17 @@ ul{
   padding-top: 13px;
   padding-right: 45px;
   padding-bottom: 13px;
-  width: 316px;
+  width: 180px;
   height: 55px;
 }
 
 #web-design-container {
   margin-top: 40px;
   background: black;
-  width: 316px;
+  width: 90%;
   color: white;
-  padding: 18px 15px;
+  padding-top: 18px;
+  padding-bottom: 18px;
   border-radius: 5px;
 }
 
@@ -285,6 +326,7 @@ ul{
 
 #web-design-container-child p {
   margin-right: 30px;
+  margin-left: 30px;
 }
 
 #web-design-container-child button {
@@ -294,18 +336,45 @@ ul{
   background: transparent;
   border: none;
 }
-
+ 
 #web-design-container-child p {
   font-size: 14px;
 }
 
+ #icon-container-dark span {
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+#icon-container-dark{
+  padding-right: 150px;
+}
+
+
+#icon-container-dark h1 span{
+   font-size: 20px;
+}
+
+.icon-container-light h1{
+   font-size: 20px;
+}
+
+.icon-container-light h1 span{
+   margin-left: 16px;
+}
+
+#web-design-btn p{
+   margin-left: 8px;
+   font-size: 12px;
+}
+
 .light-btn {
-  padding: 18px;
+  padding: 16px;
   background: ghostwhite;
   border-radius: 8px;
   margin-top: 14px;
   margin-bottom: 14px;
-  width: ;
+  width: 80%;
 }
 
 .light-btn button i {
@@ -358,9 +427,10 @@ ul{
 
 /* My work */
 #my-work-container {
-  width: 100%;
-  background: gold;
+  width: 90%;
+  background: #FAFAFA;
   margin: 10px 20px;
+
 }
 
 #text-column {
@@ -432,6 +502,7 @@ ul{
 /* Testimonials */
 #testimonials-container {
   width: 100%;
+  background: #FAFAFA;
  }
 
 #testimonials-child {
@@ -469,36 +540,56 @@ ul{
   height: 250px;
   margin: 20px auto;
   padding-bottom: 16px;
-  border-radius: 3px;
-  border: 1px solid ghostwhite;
+  border-radius: 8px;
+  border: .25px solid lightgray;
+  background: white;
 }
 
-.slider img {
+.slider__image {
   width: 60px;
   height: 60px;
   margin-left: 22px;
-  margin-top: 10px;
-  border-radius: 50%;
-}
-.slider h2 {
-  height: 10px;
-  margin-left: 22px;
-  margin-top: 10px;
-  border-radius: 50%;
-}
-
-.slider__item p {
-  margin-top: 18px;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 14px;
-}
-
-.slider__item h5 {
   margin-top: 20px;
+  border-radius: 50%;
+}
+
+ 
+
+.slider .rating-img {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+.fa.fa-star{
+  color: #FFAA23;
+}
+
+.star-rating {
+  margin-left: 20px;
+  margin-top: 14px;
+}
+
+.sub-title {
+  font-size: 10px;
+  color: lightgray;
+}
+
+.slider h2 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.slider p {
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 14px;
+  margin-top: 10px;
+}
+ 
+
+.slider__item-child {
+  width: 95%;
 }
 
 .slider__info {
@@ -520,9 +611,24 @@ ul{
   scrollbar-color: var(--scrollcolor) var(--scrollbackground);
 }
 
+.slider__nav {
+  position: absolute;
+  margin-bottom: 25%;
+  margin-left: -30px;
+}
+
+.slider__nav i {
+  color: white;
+}
+
 .slider__nav__button {
-  height: 20px;
-  margin-left: 20px;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  float: right;
+  background: black;
+  border: none;
 }
 
 .slider__content::-webkit-scrollbar {
@@ -605,38 +711,9 @@ ul{
 .social-btn:hover a {
   color: #fff;
 }
-.social-menu .social-btn::before {
-  content: attr(tooltip);
-  position: absolute;
-  top: 0;
-  font-size: 0.9em;
-  font-weight: bold;
-  z-index: -1;
-  opacity: 0;
-  pointer-events: auto;
-  background: #fff;
-  padding: 10px;
-  color: #000;
-  letter-spacing: 1px;
-  transition: all 0.3s ease-out;
-}
-.social-menu .social-btn::after {
-  content: "";
-  position: absolute;
-  width: 8px;
-  height: 8px;
-  top: 0;
-  opacity: 0;
-  background: #fff;
-  transform: rotate(45deg);
-  left: 20%;
-  z-index: -2;
-  transition: all 0.3s ease-out;
-}
-.social-menu .social-btn:hover::before {
-  top: -45px;
-  opacity: 1;
-}
+ 
+ 
+ 
 .social-btn:hover::after {
   top: -12px;
   opacity: 1;
@@ -708,20 +785,26 @@ ul{
   width: 98%;
 }
 
-#contact-details {
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 38px;
+ .contact-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 5fr));
+  width: 90%;
+  margin-left: 6%;
+  margin-bottom: 6%;
+}
+
+.contact-details-child {
+  margin-top: 20px;
   width: 100%;
 }
 
-.contact-details-column {
-  width: 100%;
-  margin: 42px 0;
+.contact-details-child h2{
+  margin-top: 20px;
+  font-size: 18px;
 }
-
-.contact-details-column h1 {
-  margin-top: 10px;
+.contact-details-child h1{
+  margin-top: 20px;
+  font-size: 25px;
 }
 
 /* end of contact me */
